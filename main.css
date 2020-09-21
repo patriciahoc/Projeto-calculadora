@@ -1,0 +1,54 @@
+*{
+  margin: 0
+
+}
+
+body{
+
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #ddbea9;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+
+}
+#container{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#article{
+  width: 250px;
+  
+}
+
+#tela{
+  background-color: #eddcd2;
+  text-align: right;
+  border: 0;
+  padding: 16px 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  height: auto;
+  
+}
+
+input{
+  width: 100%;
+  border: solid white 1px;
+  font-size: 12px;
+  border-radius: .4rem;
+  height: 36px;
+}
+
+table{
+  margin: 0 auto 0 auto;
+  width: 100%
+}
+fieldset{
+  border:none;
+  padding: 10px;
+}
